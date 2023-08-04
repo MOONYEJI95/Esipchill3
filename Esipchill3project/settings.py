@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Esipchill3app'
+
+
 ]
 
 MIDDLEWARE = [
@@ -76,13 +78,13 @@ WSGI_APPLICATION = 'Esipchill3project.wsgi.application'
 
 DATABASES = {
     'default': {
+
         'ENGINE': 'django.db.backends.mysql',
         "NAME": "yeji2",
         "USER": "yeji2",
         "PASSWORD": "moon2",
         "HOST": "127.0.0.1",
         "PORT": "3306"
-
     }
 }
 
